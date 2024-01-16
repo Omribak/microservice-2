@@ -2,7 +2,7 @@
 FROM node:12.18.1-alpine
 
 # Set the working directory
-WORKDIR /microservicetwo
+WORKDIR /microservice-2
 
 # Copy only the package files first to leverage Docker layer caching
 COPY package.json .
