@@ -9,7 +9,7 @@ COPY package.json .
 COPY package-lock.json .
 
 # Install dependencies without unnecessary cache invalidation
-RUN npm install --quiet --no-progress
+#RUN npm install --quiet --no-progress
 
 # Copy the rest of the application code
 COPY . .
